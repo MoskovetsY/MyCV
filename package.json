@@ -1,0 +1,11 @@
+{
+  "name": "MyPortfolio",
+  "version": "1.0.0",
+  "description": "LtavaIT",
+  "author": "YuriMoskovets",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.12",
+    "gulp": "^3.9.1"
+  }
+}

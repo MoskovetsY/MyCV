@@ -1,0 +1,243 @@
+body{
+    background-image: url(../img/use_your_illusion.png);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+/*Fonts*/
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Lobster';
+    src: url(../fonts/Lobster/Lobster-Regular.ttf);
+}
+/*End fonts*/
+
+/*Media*/
+@media only screen and (max-width: 590px){
+    .col-xs-12{
+        padding: 0;
+    }
+    .my-name{
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1125px){
+   .sec-title:after{
+        content: '';
+        position: absolute;
+        display: block;
+        top: 105%;
+        left: 50%;
+        width: 3px;
+        height: 940px;
+        background: #595959;
+    }
+}
+
+@media only screen and (max-width: 991px){
+   .sec-title:after{
+        content: '';
+        position: absolute;
+        display: block;
+        top: 105%;
+        left: 50%;
+        width: 3px;
+        height: 1040px;
+        background: #595959;
+    }
+}
+
+@media only screen and (max-width: 767px){
+   .sec-title:after{
+        content: '';
+        visibility: hidden;
+    }
+    
+}
+
+@media only screen and (max-width: 767px){
+    .right-line{
+        padding-right: 15px !important;
+    }
+    .left-line{
+        padding-left: 15px !important;
+    }
+    .mini-title-right{
+        text-align: center !important;
+    }
+    .mini-title-left{
+        text-align: center !important;
+    }
+    .my-info-right{
+        text-align: justify !important;
+    }
+    .my-info-left{
+        text-align: justify !important;
+    }
+    .lang{
+        text-align: center!important;
+    }
+    .skills{
+        text-align: center !important;
+    }
+    .center{
+        text-align: center !important;
+    }
+}
+/*End media*/
+
+/*Header section*/
+.my-name{
+    text-align: center;
+    color: #FC1854;
+}
+
+.main-title{
+    margin: 0;
+    font-family: 'Lobster';
+    font-size: 5rem;
+}
+
+.avatar-box{
+    display: inline-block;
+    margin: 30px 0 10px 0;
+    width: 200px;
+    height: 200px;
+    background: url(../img/avatar.png) no-repeat center;
+    border: 8px solid #595959;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.sec-title{
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+}
+
+.sec-title:after{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 105%;
+    left: 50%;
+    width: 3px;
+    min-height: 900px;
+    background: #595959;
+}
+/*End header section*/
+
+/*Info section*/
+#info{
+    margin-top: 10px;
+}
+
+.right-line{
+    padding-right: 25px;
+}
+
+.left-line{
+    padding-left: 25px;
+}
+
+.my-info-right{
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+.my-info-left{
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.mini-title-right{
+    text-align: right;
+    color: #FC1854;
+}
+
+.mini-title-left{
+    text-align: left;
+    color: #FC1854;
+}
+
+.academy{
+    margin: 0;
+}
+
+.years{
+    color: 
+}
+
+.hobby-icon{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.hobby-icon:first-child{
+    margin-left: 0;
+}
+
+.contact-sprite{
+    text-align: center;
+}
+
+.contact-link{
+    text-decoration: none !important;
+    font-size: 1.6rem;
+}
+
+.contact-icon{
+    color: #7D7D7D;
+    vertical-align: middle;
+}
+
+.contact-txt{
+    margin-left: 10px;
+    color: #FFF;
+}
+
+#contact{
+    margin-top: 40px;
+}
+
+.footer-line{
+    height: 20px;
+    background-color: #FC1854;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
